@@ -15,7 +15,7 @@
     "parserOptions": {
         "ecmaVersion": 2020,
         "sourceType": "module",
-        "project": ["./tsconfig.json", "./tsconfig.test.json"]
+        "project": ["./tsconfig.app.json", "./tsconfig.spec.json"]
     },
     "plugins": ["@typescript-eslint/eslint-plugin", "import", "promise"],
     "rules": {
