@@ -15,11 +15,14 @@
     "parserOptions": {
         "ecmaVersion": 2020,
         "sourceType": "module",
-        "project": ["./tsconfig.app.json", "./tsconfig.spec.json"]
+        "project": [
+            "./tsconfig.app.json",
+            "./tsconfig.spec.json",
+            "./e2e/tsconfig.json"
+        ]
     },
     "plugins": ["@typescript-eslint/eslint-plugin", "import", "promise"],
     "rules": {
-        "no-console": ["error"],
         "no-extra-parens": ["off"],
         "no-import-assign": ["error"],
         "no-template-curly-in-string": ["error"],
